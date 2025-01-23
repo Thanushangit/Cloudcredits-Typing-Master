@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import logo from './assets/logo.png';
 
 const TypingSpeedTester = () => {
   const [text, setText] = useState("");
@@ -80,7 +81,9 @@ const TypingSpeedTester = () => {
     <div className="app">
       <nav className="navbar">
         <h1>Typing Master</h1>
-        <h1>hi</h1>
+        <div className="navbar-logo">
+          <img src={logo} alt="logo" />
+        </div>
       </nav>
 
       <div className="content">
