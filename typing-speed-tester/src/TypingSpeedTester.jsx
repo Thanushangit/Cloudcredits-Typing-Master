@@ -12,7 +12,7 @@ const TypingSpeedTester = () => {
   const [startTime, setStartTime] = useState(null); 
   const [wpm, setWpm] = useState(null); 
 
-  // Custom sentences for difficulty levels
+
   const sentences = {
     easy: [
       "The cat sleeps peacefully on the mat near the door.",
