@@ -80,7 +80,7 @@ const TypingSpeedTester = () => {
     <div className="app">
       <nav className="navbar">
         <h1>Typing Master</h1>
-        <div className="user-logo">U</div>
+        <h1>hi</h1>
       </nav>
 
       <div className="content">
@@ -126,6 +126,7 @@ const TypingSpeedTester = () => {
             </div>
             <p className="target-text">{targetText}</p>
             <textarea
+            autoFocus
               value={text}
               onChange={handleTyping}
               rows="5"
